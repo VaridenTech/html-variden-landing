@@ -1,0 +1,20 @@
+{
+  "name": "html-variden-landing",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "sass assets/scss/style.scss:assets/css/style.min.css --style compressed",
+    "watch": "sass assets/scss/style.scss:assets/css/style.min.css --watch --style compressed",
+    "js": "uglifyjs assets/js/viewport.jquery.js assets/js/jquery.waypoints.js assets/js/main.js assets/js/ajax-mail.js -o assets/js/scripts.min.js -c -m",
+    "build": "npm run scss && npm run js",
+    "dev": "npm run watch & npm run js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "sass": "^1.64.1",
+    "uglify-js": "^3.17.4"
+  }
+}

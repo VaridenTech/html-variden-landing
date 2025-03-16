@@ -1,0 +1,90 @@
+/* Import all CSS files */
+
+/* Bootstrap */
+@import "../css/bootstrap.min.css";
+
+/* Font Awesome */
+@import "../css/all.min.css";
+
+/* Animation */
+@import "../css/animate.css";
+
+/* Magnific Popup */
+@import "../css/magnific-popup.css";
+
+/* Mean Menu */
+@import "../css/meanmenu.css";
+
+/* Swiper Bundle */
+@import "../css/swiper-bundle.min.css";
+
+/* Nice Select */
+@import "../css/nice-select.css";
+
+/* Main CSS */
+@import "../css/main.css";
+
+/* Custom SCSS can be added below */
+/* Client Logo Styles */
+.brand-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  padding: 10px;
+
+  img {
+    max-width: 100%;
+    max-height: 80px;
+    object-fit: contain;
+    filter: grayscale(0);
+    transition: all 0.3s ease;
+
+    &:hover {
+      transform: scale(1.05);
+      filter: grayscale(0);
+    }
+  }
+}
+
+/* Email Button Style */
+.email-btn {
+  display: inline-block;
+  background-color: #3c72fc;
+  color: #ffffff !important;
+  padding: 8px 16px;
+  border-radius: 5px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  cursor: pointer;
+  position: relative;
+  z-index: 10;
+
+  &:hover {
+    background-color: #2a5fd9;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(60, 114, 252, 0.2);
+  }
+
+  i {
+    margin-left: 6px;
+  }
+}
+
+/* Counter Styles */
+.counter-area {
+  width: 100%;
+}
+
+.text-white {
+  color: #ffffff;
+}
+
+.contact-info-area {
+  justify-content: start;
+}
+
+.email-contact-info-item {
+  padding-left: 40px;
+}
