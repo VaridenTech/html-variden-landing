@@ -7,10 +7,6 @@ package-lock.json
 yarn.lock
 
 # Build and compiled files
-assets/css/style.min.css
-assets/js/scripts.min.js
-*.min.css
-*.min.js
 dist/
 build/
 
