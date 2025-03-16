@@ -14,7 +14,7 @@ Js TABLE OF CONTENTS
 01. header
 02. animated text with swiper slider
 03. magnificPopup
-04. counter up 
+04. counter up
 05. wow animation
 06. nice select
 07. swiper slider
@@ -23,7 +23,7 @@ Js TABLE OF CONTENTS
 10. mouse cursor
 11. Set Background Image
 12. Global Slider
-13. Progress Bar Animation 
+13. Progress Bar Animation
 14. Checkbox
 15. preloader
 
@@ -69,21 +69,21 @@ Js TABLE OF CONTENTS
         });
 
         //>> Hero-1 Slider Start <<//
-        const sliderActive2 = ".hero-slider";
-        const sliderInit2 = new Swiper(sliderActive2, {
-            loop: true,
-            slidesPerView: 1,
-            effect: "fade",
-            speed: 3000,
-            autoplay: {
-                delay: 7000,
-                disableOnInteraction: false,
-            },
-            navigation: {
-                nextEl: ".array-prev",
-                prevEl: ".array-next",
-            },
-        });
+        // const sliderActive2 = ".hero-slider";
+        // const sliderInit2 = new Swiper(sliderActive2, {
+        //     loop: true,
+        //     slidesPerView: 1,
+        //     effect: "fade",
+        //     speed: 3000,
+        //     autoplay: {
+        //         delay: 7000,
+        //         disableOnInteraction: false,
+        //     },
+        //     navigation: {
+        //         nextEl: ".array-prev",
+        //         prevEl: ".array-next",
+        //     },
+        // });
 
         function animated_swiper(selector, init) {
             const animated = function animated() {
@@ -106,18 +106,18 @@ Js TABLE OF CONTENTS
                 });
             };
             animated();
-            init.on("slideChange", function () {
-                $(sliderActive2 + " [data-animation]").removeClass("animated");
-            });
+            // init.on("slideChange", function () {
+            //     $(sliderActive2 + " [data-animation]").removeClass("animated");
+            // });
             init.on("slideChange", animated);
         }
-        animated_swiper(sliderActive2, sliderInit2);
+        //animated_swiper(sliderActive2, sliderInit2);
         //>> Banner Animation <<//
 
 
 
 
-        //>> Magnific Popup <<//   
+        //>> Magnific Popup <<//
         /* magnificPopup img view */
         $(".popup-image").magnificPopup({
             type: "image",
@@ -157,7 +157,7 @@ Js TABLE OF CONTENTS
 
 
 
-        //>> Counter Up  <<//    
+        //>> Counter Up  <<//
         $(".counter-number").counterUp({
             delay: 10,
             time: 1000,
@@ -236,7 +236,7 @@ Js TABLE OF CONTENTS
 
 
 
-        //>> Service Slider Start <<// 
+        //>> Service Slider Start <<//
         const serviceSlider2 = new Swiper(".service-slider-2", {
             spaceBetween: 30,
             speed: 1500,
@@ -271,7 +271,7 @@ Js TABLE OF CONTENTS
 
 
 
-        //>> Project Slider Start <<// 
+        //>> Project Slider Start <<//
         const projectSlider2 = new Swiper(".project-slider-2", {
             spaceBetween: 30,
             speed: 1500,
@@ -347,7 +347,7 @@ Js TABLE OF CONTENTS
 
 
 
-        //>> Testimonial Slider Start <<// 
+        //>> Testimonial Slider Start <<//
 
         const testimonialSlider2 = new Swiper(".testimonial-slider-2", {
             speed: 1500,
@@ -535,7 +535,7 @@ Js TABLE OF CONTENTS
 
 
 
-        //>> Set Background Image  & Mask<<// 
+        //>> Set Background Image  & Mask<<//
         if ($("[data-bg-src]").length > 0) {
             $("[data-bg-src]").each(function () {
                 var src = $(this).attr("data-bg-src");
@@ -557,7 +557,7 @@ Js TABLE OF CONTENTS
         };
 
 
-        //>> Global Slider<<//  
+        //>> Global Slider<<//
         $('.gt-slider').each(function () {
             var gtSlider = $(this);
             var settings = $(this).data('slider-options');
@@ -659,7 +659,7 @@ Js TABLE OF CONTENTS
         });
 
 
-        //>> Progress Bar Animation  <<//     
+        //>> Progress Bar Animation  <<//
         $('.progress-bar').each(function () {
             var $this = $(this);
             var progressWidth = $this.attr('style').match(/width:\s*(\d+)%/)[1] + '%';
@@ -674,7 +674,7 @@ Js TABLE OF CONTENTS
         });
 
 
-        //>> Checkbox <<//      
+        //>> Checkbox <<//
         const checkbox = $('#agreeCheckbox');
         const submitButton = $('#submitButton');
 
@@ -698,4 +698,3 @@ Js TABLE OF CONTENTS
 
 
 })(jQuery); // End jQuery
-
