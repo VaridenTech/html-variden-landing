@@ -1,0 +1,177 @@
+{
+  "meta": {
+    "title": "VARIDEN TECH - IT Solution & Technology",
+    "description": "Variden Tech - IT Solution & Technology HTML Template"
+  },
+  "preloader": {
+    "loading": "Loading"
+  },
+  "header": {
+    "menu": [
+      "Home",
+      "About",
+      "Services",
+      "Team"
+    ]
+  },
+  "hero": {
+    "title": "Digital Transformation That Cut Costs & Streamline Operations",
+    "description": "We build custom web applications, mobile applications, and cloud solutions that automate repetitive tasks, organize customer data, and eliminate expensive hardware - significantly reducing costs.",
+    "buttons": [
+      "Explore More",
+      "Contact Us"
+    ]
+  },
+  "about": {
+    "section_title": "ABOUT VARIDEN TECH",
+    "title": "Digital Transformation Specialists Driving Efficiency",
+    "description": "Variden Tech creates web applications, mobile applications, and cloud solutions that eliminate manual paperwork, reduce staff workload, and cut IT infrastructure costs. Our digital transformation approach helps businesses manage customers more efficiently, automate billing, and make data-driven decisions. With experience across Thailand, Hong Kong, Germany, and Japan, we've helped companies significantly reduce operational costs.",
+    "features": [
+      "Web & Mobile Application Development",
+      "Cloud Solutions & Digital Transformation",
+      "IT Infrastructure Cost Reduction",
+      "Paperwork & Manual Process Automation",
+      "Customer Data Management Systems"
+    ]
+  },
+  "clients": {
+    "title": "Our Clients"
+  },
+  "services": {
+    "section_title": "Our Specializations",
+    "title": "Cost-Effective Business Software Solutions",
+    "items": [
+      {
+        "title": "Web Applications & Cloud Solutions",
+        "description": "Replace expensive servers with secure cloud solutions and web applications that significantly reduce IT costs and can be accessed from anywhere."
+      },
+      {
+        "title": "Customer Management Systems",
+        "description": "Track all customer interactions, automate follow-ups, and increase sales with organized customer data."
+      },
+      {
+        "title": "Digital Transformation Solutions",
+        "description": "Transform manual paperwork into digital workflows that reduce processing time and eliminate costly errors."
+      },
+      {
+        "title": "Mobile Applications & Business Expansion",
+        "description": "Scale your business with mobile applications and systems that handle more customers without adding staff, enabling entry into new markets."
+      }
+    ],
+    "cta": {
+      "title": "Digital Transformation & Cloud Solutions That Cut Costs & Boost Efficiency",
+      "email_label": "Email Us Now",
+      "email": "contact@varidentech.com"
+    }
+  },
+  "work_process": {
+    "section_title": "OUR APPROACH",
+    "title": "How We Optimize Your Business",
+    "steps": [
+      {
+        "number": "1",
+        "title": "Cost Analysis",
+        "description": "We identify expensive manual processes and IT systems that can be replaced to save on operational costs."
+      },
+      {
+        "number": "2",
+        "title": "Solution Design",
+        "description": "We design custom web applications, mobile apps, and cloud solutions to replace manual processes and cut hardware costs."
+      },
+      {
+        "number": "3",
+        "title": "Implementation",
+        "description": "We implement digital transformation solutions with minimal disruption, training your team to reduce workload."
+      },
+      {
+        "number": "4",
+        "title": "Results Optimization",
+        "description": "We continuously improve your system to increase efficiency, typically saving significantly on operational costs."
+      }
+    ]
+  },
+  "achievements": {
+    "section_title": "OUR IMPACT",
+    "title": "Reducing Costs & Expanding Businesses",
+    "stats": [
+      {
+        "number": "4",
+        "label": "Operating Countries"
+      },
+      {
+        "number": "10+",
+        "label": "Years of Experience"
+      }
+    ]
+  },
+  "marquee": [
+    "Web Applications",
+    "Mobile Applications",
+    "Cloud Solutions",
+    "Digital Transformation",
+    "Process Optimization",
+    "ROI Maximization",
+    "Operational Efficiency"
+  ],
+  "team": {
+    "section_title": "Team Members",
+    "title": "Our Dedicated Team Members",
+    "members": [
+      {
+        "name": "Varis Darasirikul",
+        "position": "Founder & CEO"
+      },
+      {
+        "name": "Phaiboon",
+        "position": "Software Engineer Expert"
+      },
+      {
+        "name": "Peerada",
+        "position": "UX/UI Designer Expert"
+      }
+    ]
+  },
+  "testimonials": {
+    "section_title": "Testimonials",
+    "title": "People Who Already Love Us",
+    "items": [
+      {
+        "name": "Supachai T.",
+        "position": "IT Director, Insurance Company",
+        "quote": "Variden Tech built a custom CRM system for our insurance company that reduced our paperwork by 70%. Their team was professional and delivered exactly what we needed. The new system has made customer management much more efficient."
+      },
+      {
+        "name": "Somchai P.",
+        "position": "Operations Manager, Retail Company",
+        "quote": "The mobile application Variden developed for our retail business has helped us expand to new locations without hiring additional staff. Their solution streamlined our inventory management and customer service processes. Highly recommended."
+      },
+      {
+        "name": "Narumon K.",
+        "position": "Finance Director, Manufacturing Company",
+        "quote": "We were spending a fortune on server maintenance and IT staff. Variden Tech moved our operations to the cloud and developed a custom ERP system that has reduced our IT costs by nearly 40%. Their team was responsive and understood our business needs perfectly."
+      },
+      {
+        "name": "Takashi M.",
+        "position": "CEO, Import-Export Business",
+        "quote": "Variden helped us expand from Thailand into Japan with their multilingual inventory management system. The digital transformation eliminated paperwork and manual processes that were slowing our growth. Their international experience was invaluable for our business expansion."
+      }
+    ]
+  },
+  "footer": {
+    "about_text": "Variden Tech specializes in digital transformation solutions that reduce operational costs and streamline business processes. We serve clients across Thailand, Hong Kong, Germany, and Japan with custom web applications, mobile apps, and cloud solutions.",
+    "quick_links": {
+      "title": "Quick Links",
+      "links": [
+        "About us",
+        "Our Services"
+      ]
+    },
+    "contact": {
+      "title": "Contact Us",
+      "email": "contact@varidentech.com",
+      "phone": "+208-6666-0112",
+      "address": "53/31 ตำบลพันท้ายนรสิงห์ อำเภอเมือง สมุทรสาคร"
+    },
+    "copyright": "All Copyright by Variden Tech"
+  }
+}

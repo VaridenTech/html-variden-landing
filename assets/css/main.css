@@ -7664,7 +7664,7 @@ h6 {
   position: relative;
 }
 
-.header-3::before {
+/* .header-3::before {
   position: absolute;
   top: 0;
   left: 0;
@@ -7675,7 +7675,7 @@ h6 {
   content: "";
   background-color: var(--theme);
   left: 75.5%;
-}
+} */
 
 @media (max-width: 1600px) {
   .header-3::before {
